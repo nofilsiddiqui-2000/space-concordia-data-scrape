@@ -1,26 +1,6 @@
-# 🚨 FIRMS Availability Scraper
+# FIRMS Availability Scraper
 
 Securely fetches fire data-availability metadata from NASA’s FIRMS API and saves it to JSON and SQLite formats for easy integration.
-
----
-
-## 📦 Table of Contents
-
-1. [Overview](#overview)  
-2. [Features](#features)  
-3. [Prerequisites](#prerequisites)  
-4. [Installation](#installation)  
-5. [Configuration](#configuration)  
-6. [Usage](#usage)  
-7. [Output Files](#output-files)  
-8. [Testing](#testing)  
-9. [Notes & Best Practices](#notes--best-practices)  
-10. [Future Roadmap](#future-roadmap)  
-11. [Contributing](#contributing)  
-12. [License](#license)  
-13. [Author](#author)
-
----
 
 ## Overview
 
@@ -55,8 +35,8 @@ The design ensures **idempotent execution** — JSON and DB overwrite previous r
 ## Installation
 
 ```bash
-git clone <repo-url>
-cd <repo-directory>
+git clone "https://github.com/nofilsiddiqui-2000/space-concordia-data-scrape"
+cd firms-scraper
 python -m venv .venv
 
 # Activate the environment:
